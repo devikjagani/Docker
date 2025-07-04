@@ -1,0 +1,4 @@
+FROM python:latest
+WORKDIR /usr/app/src
+COPY hello.py ./
+CMD [ "python", "./hello.py"]
